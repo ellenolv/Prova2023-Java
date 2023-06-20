@@ -8,7 +8,15 @@ public class Empresas {
     private String cnpj;
     private String endereco;
 
-    
+
+    public Empresas(int id, String razaoSocial, int number, boolean delivery, String cnpj, String endereco) {
+        this.id = id;
+        this.razaoSocial = razaoSocial;
+        this.number = number;
+        this.delivery = delivery;
+        this.cnpj = cnpj;
+        this.endereco = endereco;
+    }
     public int getId() {
         return id;
     }
